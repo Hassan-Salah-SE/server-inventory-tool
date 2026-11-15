@@ -26,7 +26,7 @@ An interactive menu or command-line arguments.
 
 1. Clone the repository
    ```bash
-   git clone <link-to-this-repository>
+   git clone git clone https://github.com/Hassan-Salah-SE/server-inventory-tool.git
    ```
 2. Go into the project folder
    ```bash
