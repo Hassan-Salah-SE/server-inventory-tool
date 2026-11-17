@@ -12,7 +12,7 @@ def main():
         description="Server Inventory Tool: keep track of servers and check if they respond.")
     parser.add_argument("--list", action="store_true", help="show all servers and exit")
     parser.add_argument("--environment", help="with --list: only show servers in this environment (dev, test or prod)")
-    parser.add_argument("--check", help="check one server by name if it is responding")
+    parser.add_argument("--check", metavar="NAME", help="check one server by name if it is responding")
     parser.add_argument("--check-all", action="store_true", help="check all servers and exit")
     parser.add_argument("--export", action="store_true", help="export all servers to a csv report in reports/")
     args = parser.parse_args()
